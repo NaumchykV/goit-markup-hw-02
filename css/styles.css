@@ -9,7 +9,8 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -41,10 +42,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.accent {
   color: #4d5ae5;
 }
 
@@ -59,6 +56,7 @@ body {
 }
 
 .header-logo-accent {
+  color: #2e2f42;
 }
 
 .header-menu {
@@ -97,6 +95,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .header-address-link:hover,
@@ -113,7 +112,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -130,7 +129,8 @@ body {
   cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -176,20 +176,13 @@ body {
 .team-list {
 }
 .team-list-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0
-      rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 .team-list-img {
 }
 .team-subtitle {
   text-align: center;
+  text-transform: capitalize;
 }
 .team-text {
   text-align: center;
@@ -214,6 +207,7 @@ body {
 }
 
 .portfolio-subtitle {
+  text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -227,9 +221,9 @@ body {
 }
 
 .footer-logo {
-  color: #f4f4fd;
 }
 .footer-logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
